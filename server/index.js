@@ -9,7 +9,7 @@ const listingRoutes=require("./routes/listing.js")
 const bookingRoutes = require("./routes/booking.js")
 const userRoutes = require("./routes/user.js")
 app.use(cors({
-  origin:["https://rent-ease-backend.vercel.app"],
+  origin:["https://rent-ease-frontend.vercel.app"],
   methods:["POST","GET"],
   credentials:true
 });
